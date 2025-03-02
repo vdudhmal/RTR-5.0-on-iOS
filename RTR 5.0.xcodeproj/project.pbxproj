@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753126C92D6B8D24001A0399 /* AboutViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 753126C82D6B8D24001A0399 /* AboutViewController.mm */; };
+		753126CC2D6B951D001A0399 /* Kundali.png in Resources */ = {isa = PBXBuildFile; fileRef = 753126CB2D6B951D001A0399 /* Kundali.png */; };
+		7541C9172CC5412B00271CF6 /* Marble.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 7541C9162CC5412B00271CF6 /* Marble.bmp */; };
+		756625F72CC578340030062C /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 756625F62CC578340030062C /* Sphere.cpp */; };
+		7589AFE62CC5A02F003AF47E /* GLESViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7589AFE52CC5A02F003AF47E /* GLESViewController.mm */; };
+		75B098D32C5EE1B9002B41C3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75B098D22C5EE1B9002B41C3 /* AppDelegate.mm */; };
+		75B098D92C5EE1B9002B41C3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75B098D82C5EE1B9002B41C3 /* ViewController.mm */; };
+		75B098DE2C5EE1BA002B41C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B098DD2C5EE1BA002B41C3 /* Assets.xcassets */; };
+		75B098E42C5EE1BA002B41C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B098E32C5EE1BA002B41C3 /* main.m */; };
+		75B098F12C5FF40B002B41C3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B098F02C5FF40B002B41C3 /* OpenGLES.framework */; };
+		75F74D472CC3ECE200D71FAA /* Smiley.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 75F74D452CC3ECE200D71FAA /* Smiley.bmp */; };
+		75F74D482CC3ECE200D71FAA /* Stone.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 75F74D462CC3ECE200D71FAA /* Stone.bmp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		753126C82D6B8D24001A0399 /* AboutViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AboutViewController.mm; sourceTree = "<group>"; };
+		753126CA2D6B8D37001A0399 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		753126CB2D6B951D001A0399 /* Kundali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kundali.png; sourceTree = "<group>"; };
+		7541C9162CC5412B00271CF6 /* Marble.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Marble.bmp; sourceTree = "<group>"; };
+		756625F52CC578340030062C /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		756625F62CC578340030062C /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		7589AFE42CC5A02F003AF47E /* GLESViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLESViewController.h; sourceTree = "<group>"; };
+		7589AFE52CC5A02F003AF47E /* GLESViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GLESViewController.mm; sourceTree = "<group>"; };
+		75950BDA2CC3727000AC5051 /* vmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vmath.h; sourceTree = "<group>"; };
+		75B098CE2C5EE1B9002B41C3 /* RTR 5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTR 5.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B098D12C5EE1B9002B41C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75B098D22C5EE1B9002B41C3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		75B098D72C5EE1B9002B41C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75B098D82C5EE1B9002B41C3 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		75B098DD2C5EE1BA002B41C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75B098E22C5EE1BA002B41C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B098E32C5EE1BA002B41C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75B098EE2C5FF403002B41C3 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		75B098F02C5FF40B002B41C3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		75F74D452CC3ECE200D71FAA /* Smiley.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Smiley.bmp; sourceTree = "<group>"; };
+		75F74D462CC3ECE200D71FAA /* Stone.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Stone.bmp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7541C90E2CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"01-BlackAndWhite/PerspectiveBlackAndWhiteTriangle.mm",
+				"02-Colored/PerspectiveColorTriangle.mm",
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C90F2CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"01-BlackAndWhite/BlackAndWhiteRectangle.mm",
+				"02-Colored/ColorRectangle.mm",
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C9102CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"01-BlackAndWhite/TwoBlackAndWhite2DShapes.mm",
+				"02-Colored/TwoColor2DShapes.mm",
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C9112CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"01-BlackAndWhite/01-SingleShape/01-Triangle/TriangleRotation.mm",
+				"01-BlackAndWhite/01-SingleShape/02-Rectangle/RectangleRotation.mm",
+				"01-BlackAndWhite/02-TwoShapes/Two2DShapesRotation.mm",
+				"02-Colored/01-SingleShape/01-Triangle/ColorTriangleRotation.mm",
+				"02-Colored/01-SingleShape/02-Rectangle/ColorRectangleRotation.mm",
+				"02-Colored/02-TwoShapes/TwoColor2DShapesRotation.mm",
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C9122CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"01-BlackAndWhite/01-SingleShape/01-Pyramid/PyramidRotation.mm",
+				"01-BlackAndWhite/01-SingleShape/02-Cube/CubeRotation.mm",
+				"01-BlackAndWhite/02-TwoShapes/Two3DShapesRotation.mm",
+				"02-Colored/01-SingleShape/01-Pyramid/ColorPyramidRotation.mm",
+				"02-Colored/01-SingleShape/02-Cube/ColorCubeRotation.mm",
+				"02-Colored/02-TwoShapes/TwoColor3DShapesRotation.mm",
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C9132CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"01-One3DShape/01-Pyramid/TextureOnPyramid.mm",
+				"01-One3DShape/02-Cube/TextureOnCube.mm",
+				"02-Two3DShapes/TextureOnTwo3DShapes.mm",
+				"03-SmileyTexture/SmileyTexture.mm",
+				"04-TweakedSmiley/TweakedSmiley.mm",
+				"05-CheckerBoard/Checkerboard.mm",
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C9142CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				GraphPaperWithShapes.mm,
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+		7541C9152CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Interleave.mm,
+			);
+			target = 75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		751EB0832CC52BC100EB0997 /* 01-BlueScreen */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "01-BlueScreen"; sourceTree = "<group>"; };
+		7541C8162CC536AF00271CF6 /* 02-Ortho */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "02-Ortho"; sourceTree = "<group>"; };
+		7541C8992CC536D100271CF6 /* 03-Perspective */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C90E2CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "03-Perspective"; sourceTree = "<group>"; };
+		7541C8A02CC536D100271CF6 /* 04-Rectangle */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C90F2CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "04-Rectangle"; sourceTree = "<group>"; };
+		7541C8A72CC536D100271CF6 /* 05-Two2DShapes */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C9102CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "05-Two2DShapes"; sourceTree = "<group>"; };
+		7541C8BE2CC536D100271CF6 /* 06-2DRotation */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C9112CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "06-2DRotation"; sourceTree = "<group>"; };
+		7541C8D52CC536D100271CF6 /* 07-3DRotation */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C9122CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "07-3DRotation"; sourceTree = "<group>"; };
+		7541C8E92CC536D100271CF6 /* 08-Texture */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C9132CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "08-Texture"; sourceTree = "<group>"; };
+		7541C8EC2CC536D100271CF6 /* 11-GraphPaperWithShapes */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C9142CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "11-GraphPaperWithShapes"; sourceTree = "<group>"; };
+		7541C8EF2CC536D100271CF6 /* 14-Interleave */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7541C9152CC536D100271CF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "14-Interleave"; sourceTree = "<group>"; };
+		7541C8F22CC536D100271CF6 /* 15-IndexedDrawing */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "15-IndexedDrawing"; sourceTree = "<group>"; };
+		7541C9252CC541B400271CF6 /* 09-WhiteSphere */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "09-WhiteSphere"; sourceTree = "<group>"; };
+		7541C93E2CC542B500271CF6 /* 13-RenderToTexture */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "13-RenderToTexture"; sourceTree = "<group>"; };
+		7541D7A82CC54EE100271CF6 /* 12-PushPopMatrix */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "12-PushPopMatrix"; sourceTree = "<group>"; };
+		756626AF2CC5798B0030062C /* 10-Lights */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "10-Lights"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75B098CB2C5EE1B9002B41C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B098F12C5FF40B002B41C3 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7566273F2CC57B3E0030062C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				756625F52CC578340030062C /* Sphere.h */,
+				756625F62CC578340030062C /* Sphere.cpp */,
+				75950BDA2CC3727000AC5051 /* vmath.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		75B098C52C5EE1B9002B41C3 = {
+			isa = PBXGroup;
+			children = (
+				75B098D02C5EE1B9002B41C3 /* RTR 5.0 */,
+				75B098CF2C5EE1B9002B41C3 /* Products */,
+				75B098ED2C5FF403002B41C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75B098CF2C5EE1B9002B41C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B098CE2C5EE1B9002B41C3 /* RTR 5.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B098D02C5EE1B9002B41C3 /* RTR 5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				7566273F2CC57B3E0030062C /* Common */,
+				751EB0832CC52BC100EB0997 /* 01-BlueScreen */,
+				7541C8162CC536AF00271CF6 /* 02-Ortho */,
+				7541C8992CC536D100271CF6 /* 03-Perspective */,
+				7541C8A02CC536D100271CF6 /* 04-Rectangle */,
+				7541C8A72CC536D100271CF6 /* 05-Two2DShapes */,
+				7541C8BE2CC536D100271CF6 /* 06-2DRotation */,
+				7541C8D52CC536D100271CF6 /* 07-3DRotation */,
+				7541C8E92CC536D100271CF6 /* 08-Texture */,
+				7541C9252CC541B400271CF6 /* 09-WhiteSphere */,
+				756626AF2CC5798B0030062C /* 10-Lights */,
+				7541C8EC2CC536D100271CF6 /* 11-GraphPaperWithShapes */,
+				7541D7A82CC54EE100271CF6 /* 12-PushPopMatrix */,
+				7541C93E2CC542B500271CF6 /* 13-RenderToTexture */,
+				7541C8EF2CC536D100271CF6 /* 14-Interleave */,
+				7541C8F22CC536D100271CF6 /* 15-IndexedDrawing */,
+				75B098D12C5EE1B9002B41C3 /* AppDelegate.h */,
+				75B098D22C5EE1B9002B41C3 /* AppDelegate.mm */,
+				75B098DD2C5EE1BA002B41C3 /* Assets.xcassets */,
+				75B098E22C5EE1BA002B41C3 /* Info.plist */,
+				753126CA2D6B8D37001A0399 /* AboutViewController.h */,
+				753126C82D6B8D24001A0399 /* AboutViewController.mm */,
+				7589AFE42CC5A02F003AF47E /* GLESViewController.h */,
+				7589AFE52CC5A02F003AF47E /* GLESViewController.mm */,
+				75B098D72C5EE1B9002B41C3 /* ViewController.h */,
+				75B098D82C5EE1B9002B41C3 /* ViewController.mm */,
+				753126CB2D6B951D001A0399 /* Kundali.png */,
+				7541C9162CC5412B00271CF6 /* Marble.bmp */,
+				75F74D452CC3ECE200D71FAA /* Smiley.bmp */,
+				75F74D462CC3ECE200D71FAA /* Stone.bmp */,
+				75B098E32C5EE1BA002B41C3 /* main.m */,
+			);
+			path = "RTR 5.0";
+			sourceTree = "<group>";
+		};
+		75B098ED2C5FF403002B41C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B098F02C5FF40B002B41C3 /* OpenGLES.framework */,
+				75B098EE2C5FF403002B41C3 /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B098E72C5EE1BA002B41C3 /* Build configuration list for PBXNativeTarget "RTR 5.0" */;
+			buildPhases = (
+				75B098CA2C5EE1B9002B41C3 /* Sources */,
+				75B098CB2C5EE1B9002B41C3 /* Frameworks */,
+				75B098CC2C5EE1B9002B41C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				751EB0832CC52BC100EB0997 /* 01-BlueScreen */,
+				7541C8162CC536AF00271CF6 /* 02-Ortho */,
+				7541C8F22CC536D100271CF6 /* 15-IndexedDrawing */,
+				7541C9252CC541B400271CF6 /* 09-WhiteSphere */,
+				7541C93E2CC542B500271CF6 /* 13-RenderToTexture */,
+				7541D7A82CC54EE100271CF6 /* 12-PushPopMatrix */,
+				756626AF2CC5798B0030062C /* 10-Lights */,
+			);
+			name = "RTR 5.0";
+			productName = OpenGLES;
+			productReference = 75B098CE2C5EE1B9002B41C3 /* RTR 5.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75B098C62C5EE1B9002B41C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					75B098CD2C5EE1B9002B41C3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 75B098C92C5EE1B9002B41C3 /* Build configuration list for PBXProject "RTR 5.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75B098C52C5EE1B9002B41C3;
+			productRefGroup = 75B098CF2C5EE1B9002B41C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75B098CD2C5EE1B9002B41C3 /* RTR 5.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75B098CC2C5EE1B9002B41C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541C9172CC5412B00271CF6 /* Marble.bmp in Resources */,
+				75B098DE2C5EE1BA002B41C3 /* Assets.xcassets in Resources */,
+				75F74D472CC3ECE200D71FAA /* Smiley.bmp in Resources */,
+				753126CC2D6B951D001A0399 /* Kundali.png in Resources */,
+				75F74D482CC3ECE200D71FAA /* Stone.bmp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75B098CA2C5EE1B9002B41C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B098D92C5EE1B9002B41C3 /* ViewController.mm in Sources */,
+				753126C92D6B8D24001A0399 /* AboutViewController.mm in Sources */,
+				75B098D32C5EE1B9002B41C3 /* AppDelegate.mm in Sources */,
+				756625F72CC578340030062C /* Sphere.cpp in Sources */,
+				7589AFE62CC5A02F003AF47E /* GLESViewController.mm in Sources */,
+				75B098E42C5EE1BA002B41C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75B098E52C5EE1BA002B41C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75B098E62C5EE1BA002B41C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75B098E82C5EE1BA002B41C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6S7VV75Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RTR 5.0/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RTR 5.0";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated-declarations";
+				PRODUCT_BUNDLE_IDENTIFIER = vnd.rtr05;
+				PRODUCT_NAME = "RTR 5.0";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75B098E92C5EE1BA002B41C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6S7VV75Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RTR 5.0/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RTR 5.0";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-deprecated-declarations";
+				PRODUCT_BUNDLE_IDENTIFIER = vnd.rtr05;
+				PRODUCT_NAME = "RTR 5.0";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75B098C92C5EE1B9002B41C3 /* Build configuration list for PBXProject "RTR 5.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B098E52C5EE1BA002B41C3 /* Debug */,
+				75B098E62C5EE1BA002B41C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B098E72C5EE1BA002B41C3 /* Build configuration list for PBXNativeTarget "RTR 5.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B098E82C5EE1BA002B41C3 /* Debug */,
+				75B098E92C5EE1BA002B41C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75B098C62C5EE1B9002B41C3 /* Project object */;
+}
