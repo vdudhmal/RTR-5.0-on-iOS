@@ -17,7 +17,7 @@ The assignments focus on modern OpenGL techniques and concepts, implemented on i
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/vdudhmal/RTR-5.0-on-iOS.git
+    git clone https://github.com/vdudhmal/RTR5.0-iOS.git
     ```
 
 2. Open the project in **Xcode**.
