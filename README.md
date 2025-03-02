@@ -6,12 +6,12 @@ The assignments focus on modern OpenGL techniques and concepts, implemented on i
 
 ## Features
 
-- **OpenGL setup** for iOS devices using OpenGL ES 3.00.
-- **Shaders** implementation (vertex, fragment).
-- **Lighting models** and rendering techniques (Phong, Blinn-Phong, Per-Vertex, Per-Fragment).
-- **3D transformations and projections** (model-view-projection, perspective, orthographic).
-- **Texture mapping** (2D textures, procedural textures, normal mapping).
-- **Framebuffer and Post-processing effects** such as color grading and blur.
+- **OpenGL setup**: for iOS devices using OpenGL ES 3.00.
+- **Shader programming**: Vertex and Fragment.
+- **3D transformations**: Model, View, Projection matrices for perspective and orthographic projections.
+- **Texture mapping**: Basic 2D textures, procedural textures.
+- **Lighting models**: Diffuse, Phong, Blinn-Phong, Per-Vertex and Per-Fragment light.
+- **Framebuffers** for offscreen rendering.
 
 ## Installation
 
